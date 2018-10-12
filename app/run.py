@@ -69,7 +69,7 @@ def sanitize_input(input):
     :param input: Any number
     :return: The absolute, integer number
     """
-    return abs(int(input))
+    return abs(int(round(float(input))))
 
 
 def extract_room_info(data, room_number):
