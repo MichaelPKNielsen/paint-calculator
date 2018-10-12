@@ -46,4 +46,6 @@ To make it easier on everybody, it's best if we use a PR to diff what work was c
 
 ## Running Tests
 
-Write instructions for how a user executes the automated tests you created.
+To execute the automated tests go to https://github.com/MichaelPKNielsen/paint-calculator-test and follow the steps in the README
+
+All required text files have been added to this repo.
