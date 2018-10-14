@@ -14,16 +14,16 @@
             {{ row['room'] }}
         </td>
         <td>
-            {{ row['ft'] }}
+            <span name="feet-{{ row['room'] }}">{{ row['ft'] }}</span>
         </td>
         <td>
-            {{ row['gallons'] }}
+            <span name="gallons-{{ row['room'] }}">{{ row['gallons'] }}</span>
         </td>
     </tr>
     {% endfor %}
 </table>
 
-<h5>Total Gallons Required: {{ total_gallons_required }}</h5>
+<h5><span name="total_gallons">Total Gallons Required: {{ total_gallons_required }}</span></h5>
 
 <div style="text-align: center">
     <form action="/">
